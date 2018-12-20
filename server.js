@@ -61,4 +61,5 @@ const port = process.env.PORT || 3000;
 app.listen( port, () => {
     dBase = new DB( "127.0.0.1", "27017", "trackingSystem" );
     console.log(`> Server start on port ${port}.....`);
+    console.log("test");
 });
